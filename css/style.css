@@ -28,7 +28,7 @@ header{
     min-width: 320px;
     height: 334px;
     text-align: center;
-    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%); ;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%); 
 }
 header img{
     width: 150px;
@@ -81,7 +81,7 @@ header img{
     width: 13px;
     height: 8px;
     margin-left: 10px;
-    background-image: url('./assets/icons/Vector.svg');
+    background-image: url('/assets/icons/Vector.svg');
 }
 main{
     width: 100%;
@@ -106,7 +106,7 @@ main{
     height: 200px;
     margin: 0 auto;
     margin-bottom: 50px;
-    background-image: url('./assets/imgs/bitcoin.svg');
+    background-image: url('/assets/imgs/bitcoin.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -193,7 +193,7 @@ main{
     width: 15px;
     height: 15px;
     margin-left: 10px;
-    background-image: url('./assets/icons/down-arrow.svg');
+    background-image: url('/assets/icons/down-arrow.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -203,7 +203,7 @@ main{
     width: 15px;
     height: 15px;
     margin-left: 10px;
-    background-image: url('./assets/icons/up-arrow.svg');
+    background-image: url('/assets/icons/up-arrow.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -311,7 +311,7 @@ main{
     height: 25px;
     top: -10px;
     left: calc(50% - 20px);
-    background-image: url(./assets/icons/batata.svg);
+    background-image: url('/assets/icons/batata.svg');
 }
 .product-detail--title{
     width: 90%;
@@ -355,16 +355,16 @@ main{
     background-repeat: no-repeat;
 }
 .product-detail--card .clock{
-    background-image: url(./assets/icons/clock.svg);
+    background-image: url('/assets/icons/clock.svg');
 }
 .product-detail--card .eye{
-    background-image: url(./assets/icons/eye.svg);
+    background-image: url('/assets/icons/eye.svg');
 }
 .product-detail--card .money{
-    background-image: url(./assets/icons/dollar-sign.svg);
+    background-image: url('/assets/icons/dollar-sign.svg');
 }
 .product-detail--card .check{
-    background-image: url(./assets/icons/check-circle.svg);
+    background-image: url('/assets/icons/check-circle.svg');
 }
 .product-detail--card .product--card-title{
     margin-bottom: 15px;
@@ -383,7 +383,7 @@ main{
     width: 100%;
     min-width: 320px;
     height: 50vh;
-    background-image: url(./assets/imgs/bitcoinbaby\ 1.jpeg);
+    background-image: url('https://batatabit-site.netlify.app/assets/imgs/tablet/bitcoinbaby.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -391,7 +391,7 @@ main{
 
 }
 .bitcoin-img-container h2{
-    padding-top: 60px;
+    padding-top: 64px;
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
@@ -503,7 +503,7 @@ main{
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url(./assets/icons/arrow-right\ .svg);
+    background-image: url('/assets/icons/arrow-right\ .svg');
     vertical-align: text-bottom;
 }
 footer{
