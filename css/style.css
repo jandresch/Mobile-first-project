@@ -506,28 +506,40 @@ main{
     background-image: url('/assets/icons/arrow-right\ .svg');
     vertical-align: text-bottom;
 }
-footer{
+.footer_section{
     width: 100%;
     height: 150px;
-    display: flex;
+    padding: 12px 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1rem;
+    color: var(--just-white);
     background-color: var(--bitcoin-orange);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
-footer section{
-    width: 50%;
+.footer_section .personal_info{
+    place-self: center start;
+    width: auto;
+    height: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
 }
-footer .left ul{
-font-size: 1.4rem;
-font-weight: 500;
-line-height: 1.8rem;
-list-style: none;
-}
-.left li{
-    margin: 10px 0;
-}
-.left a{
+.personal_info a{
     text-decoration: none;
     color: var(--just-white);
+}
+.footer_section .personal-logo{
+    place-self: center;
+    width: 35px;
+    height: 20px;
+    background-image: url('/assets/icons/batata.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.footer_section .date{
+    place-self: center end;
+    width: auto;
+    height: auto;
 }
