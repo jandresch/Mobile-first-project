@@ -106,7 +106,7 @@ main{
     height: 200px;
     margin: 0 auto;
     margin-bottom: 50px;
-    background-image: url('/assets/imgs/bitcoin.svg');
+    background-image: url('../assets/imgs/bitcoin.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -193,7 +193,7 @@ main{
     width: 15px;
     height: 15px;
     margin-left: 10px;
-    background-image: url('/assets/icons/down-arrow.svg');
+    background-image: url('../assets/icons/down-arrow.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -203,7 +203,7 @@ main{
     width: 15px;
     height: 15px;
     margin-left: 10px;
-    background-image: url('/assets/icons/up-arrow.svg');
+    background-image: url('../assets/icons/up-arrow.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -311,7 +311,7 @@ main{
     height: 25px;
     top: -10px;
     left: calc(50% - 20px);
-    background-image: url('/assets/icons/batata.svg');
+    background-image: url('../assets/icons/batata.svg');
 }
 .product-detail--title{
     width: 90%;
@@ -355,16 +355,16 @@ main{
     background-repeat: no-repeat;
 }
 .product-detail--card .clock{
-    background-image: url('/assets/icons/clock.svg');
+    background-image: url('../assets/icons/clock.svg');
 }
 .product-detail--card .eye{
-    background-image: url('/assets/icons/eye.svg');
+    background-image: url('../assets/icons/eye.svg');
 }
 .product-detail--card .money{
-    background-image: url('/assets/icons/dollar-sign.svg');
+    background-image: url('../assets/icons/dollar-sign.svg');
 }
 .product-detail--card .check{
-    background-image: url('/assets/icons/check-circle.svg');
+    background-image: url('../assets/icons/check-circle.svg');
 }
 .product-detail--card .product--card-title{
     margin-bottom: 15px;
@@ -503,7 +503,7 @@ main{
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url('/assets/icons/arrow-right\ .svg');
+    background-image: url('../assets/icons/arrow-right\ .svg');
     vertical-align: text-bottom;
 }
 .footer_section{
@@ -533,7 +533,7 @@ main{
     place-self: center;
     width: 35px;
     height: 20px;
-    background-image: url('/assets/icons/batata.svg');
+    background-image: url('../assets/icons/batata.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
